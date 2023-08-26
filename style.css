@@ -309,3 +309,28 @@ footer .container{
     margin: 30px;
    
 }
+
+@media (min-width: 720px) {
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+#somos-next .conteiner{
+
+}
+
+
+}
