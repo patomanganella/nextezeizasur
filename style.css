@@ -91,7 +91,7 @@ header a{
     font-weight: bold;
     color: black;
     display: flex;
-       
+
 }
 
 header a:hover{
@@ -110,7 +110,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
+    )
     ,url("imagenes/4af8b571-2bcc-4d81-8fd1-75e9061e5c34.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -153,9 +153,9 @@ header a:hover{
 
 #nuestra-oferta .carta{
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
     padding: 100px ;
-    margin: 100px;
+    margin: 80px;
     border-radius: 15px;
 }
 
@@ -164,9 +164,9 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
+    )
     ,url("imagenes/db559ea6-2185-423f-82cf-cc7fda236b85.jpg");
-   
+
 }
 
 .carta:nth-child(2){
@@ -174,9 +174,9 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
+    )
     ,url("imagenes/WhatsApp\ Image\ 2023-08-23\ at\ 4.26.52\ PM.jpeg");
-    
+
 }
 
 .carta:nth-child(3){
@@ -184,9 +184,9 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
+    )
     ,url("imagenes/WhatsApp\ Image\ 2023-08-23\ at\ 4.26.52\ PM\ \(1\).jpeg");
-    
+
 }
 
 .carta:nth-child(4){
@@ -194,9 +194,9 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
+    )
     ,url("imagenes/inglesAdultos.jpg");
-    
+
 }
 
 .carta:nth-child(5){
@@ -204,9 +204,9 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
+    )
     ,url("imagenes/finesEspecificos.jpg");
-    
+
 }
 
 .button-carta{
@@ -218,8 +218,8 @@ header a:hover{
     box-shadow: 2px 2px 10px black;
     color:  #ffff;
     background-color: #652f8d;
-    
-   
+
+
 
 }
 
@@ -228,7 +228,7 @@ header a:hover{
 
     text-align: center;
     padding: 100px 12px;
-    
+
 }
 
 #generales li{
@@ -286,11 +286,11 @@ footer .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
 .img-instituto img{
-    padding: 10px;   
+    padding: 10px;
     width: 200px;
     height: 200px;
     border-radius: 30px;
@@ -301,13 +301,13 @@ footer .container{
 
     display: flex;
     flex-wrap: wrap;
-   
+
 }
 
 .container-generales li{
     padding: 20px;
     margin: 30px;
-   
+
 }
 
 @media (min-width: 720px) {
@@ -316,7 +316,7 @@ footer .container{
         position: fixed;
         width: 100%;
     }
-    
+
 header .container{
     flex-direction: row;
     justify-content: space-between;
@@ -332,7 +332,7 @@ header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 
 }
 
@@ -340,15 +340,17 @@ header nav{
 
     display: block;
     padding-top: 120px;
-    
+
 }
 
 #nuestra-oferta .carta{
 
 padding: 15px;
-margin: 15px;    
+margin: 15px;
 height: 250px;
 width: 250px;
+background-size: cover;
+background-position: center center;
 
 }
 
@@ -357,9 +359,9 @@ width: 250px;
         0deg,
         rgba(0, 0, 0, 0.24),
         rgba(0, 0, 0, 0.24)
-    ) 
+    )
     ,url("imagenes/db559ea6-2185-423f-82cf-cc7fda236b85.jpg");
-   
+
 }
 
 .carta:nth-child(2){
@@ -367,9 +369,9 @@ width: 250px;
         0deg,
         rgba(0, 0, 0, 0.24),
         rgba(0, 0, 0, 0.24)
-    ) 
+    )
     ,url("imagenes/WhatsApp\ Image\ 2023-08-23\ at\ 4.26.52\ PM.jpeg");
-    
+
 }
 
 .carta:nth-child(3){
@@ -377,9 +379,9 @@ width: 250px;
         0deg,
         rgba(0, 0, 0, 0.24),
         rgba(0, 0, 0, 0.24)
-    ) 
+    )
     ,url("imagenes/WhatsApp\ Image\ 2023-08-23\ at\ 4.26.52\ PM\ \(1\).jpeg");
-    
+
 }
 
 .carta:nth-child(4){
@@ -387,9 +389,9 @@ width: 250px;
         0deg,
         rgba(0, 0, 0, 0.24),
         rgba(0, 0, 0, 0.24)
-    ) 
+    )
     ,url("imagenes/inglesAdultos.jpg");
-    
+
 }
 
 .carta:nth-child(5){
@@ -397,9 +399,64 @@ width: 250px;
         0deg,
         rgba(0, 0, 0, 0.24),
         rgba(0, 0, 0, 0.24)
-    ) 
+    )
     ,url("imagenes/finesEspecificos.jpg");
-    
+
 }
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 800px;
+    color: #ffff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/4af8b571-2bcc-4d81-8fd1-75e9061e5c34.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+
+}
+
+.btn-hero{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color:  #ffff;
+    background-color: #652f8d;
+    position: absolute;
+    top: 700px;
+    right: 390px;
+
+}
+
+
+#aprende-ya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(imagenes/ccd23bb3-2c5b-4b7d-b9af-410b308c57f3.jpg);
+    /* background-color: rgb(30, 30, 30); */
+    color: #ffff;
+    height: 80vh;
+    background-position: center;
+}
+
 
 }
