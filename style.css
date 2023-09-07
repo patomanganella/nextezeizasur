@@ -7,7 +7,7 @@ html{
 }
 
 h1{
-    font-size: 3.5em;
+    font-size: 1.5em;
 }
 
 h2{
@@ -21,6 +21,7 @@ h3{
 
 p{
     font-size: 1.25em;
+    color: #3b3939;
 }
 ul{
     list-style: none;
@@ -35,7 +36,7 @@ body{
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* 
 button{
     font-size: 1.5em;
     font-weight: bold;
@@ -45,6 +46,42 @@ button{
     box-shadow: 2px 2px 10px black;
     color:  #ffff;
     background-color: #652f8d;
+    position: absolute;
+    top: 600px;
+    left: 130px;
+    
+
+} */
+
+
+.btn-aprende{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color:  #ffff;
+    background-color: #652f8d;
+    position: relative;
+    top: 150px;
+    
+    
+
+}
+
+.btn-hero{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color:  #ffff;
+    background-color: #652f8d;
+    position: absolute;
+    top: 700px;
+    right: 120px;
 
 }
 
@@ -119,6 +156,8 @@ header a:hover{
 
 #hero h1{
     color: #ffff;
+    position: absolute;
+    top: 250px;
 }
 
 .color-acento{
@@ -554,6 +593,14 @@ background-position: center center;
     justify-content: space-around;
 }
 
+h1{
+    font-size: 3.5em;
+}
 
+#hero h1{
+    color: #ffff;
+    position: absolute;
+    top: 185px;
+}
 
 }
