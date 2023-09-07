@@ -64,7 +64,7 @@ button{
     color:  #ffff;
     background-color: #652f8d;
     position: relative;
-    top: 150px;
+    top: 120px;
     
     
 
@@ -80,7 +80,7 @@ button{
     color:  #ffff;
     background-color: #652f8d;
     position: absolute;
-    top: 700px;
+    top: 450px;
     right: 120px;
 
 }
@@ -96,7 +96,8 @@ button:hover{
 }
 
 header{
-
+    position: fixed;
+    width: 100%;
     background-color: #f3f2f2;
 
 }
@@ -109,13 +110,12 @@ header .logo{
     font-size: 1.45em;
 }
 
-header .container{
+header .container-fluid{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+
 }
 
-header nav{
+header .navbar{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -131,7 +131,7 @@ header a{
 
 }
 
-header a:hover{
+.navbar a:hover{
     color: #432f8d;
 }
 
@@ -157,7 +157,7 @@ header a:hover{
 #hero h1{
     color: #ffff;
     position: absolute;
-    top: 250px;
+    top: 380px;
 }
 
 .color-acento{
@@ -600,7 +600,7 @@ h1{
 #hero h1{
     color: #ffff;
     position: absolute;
-    top: 185px;
+    top: 130px;
 }
 
 }
