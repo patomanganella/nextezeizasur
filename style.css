@@ -252,11 +252,11 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ), url(imagenes/4af8b571-2bcc-4d81-8fd1-75e9061e5c34.jpg);
+    ), url(imagenes/ccd23bb3-2c5b-4b7d-b9af-410b308c57f3.jpg);
     /* background-color: rgb(30, 30, 30); */
     color: #ffff;
     height: 80vh;
-
+    background-position: center;
 }
 
 footer{
