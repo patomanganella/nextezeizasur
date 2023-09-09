@@ -358,7 +358,7 @@ footer .container{
     display: flex;
     /* justify-content: center; */
     position: relative;
-    right: 80px;
+    left: 80px;
 }
 
 
