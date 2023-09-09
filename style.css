@@ -357,6 +357,8 @@ footer .container{
 .container-generales-ul{
     display: flex;
     /* justify-content: center; */
+    position: relative;
+    right: 80px;
 }
 
 
